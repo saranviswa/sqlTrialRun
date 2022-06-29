@@ -24,21 +24,23 @@ namespace MFPE_ProductMicroservice.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(Product), 200)]
         [ProducesResponseType(404)]
-        public IActionResult Get()
+        public IActionResult Get() 
         {
-            try{
-            var product = null; //_productRepository.GetAllProduct();
-            
-            if (product == null)
+            try
             {
-                _log4net.Error("Logged inside get method");
-                return NotFound("The product list is empty");
+                var product = new Product(); //_productRepository.GetAllProduct();
+
+                if (product == null)
+                {
+                    _log4net.Error("Logged inside get method");
+                    return NotFound("The product list is empty");
+                }
+                _log4net.Info("Retuned successfully from getall action method");
+                return Ok(product);
             }
-            _log4net.Info("Retuned successfully from getall action method");
-            return Ok(product);
-            }
-            catch(Exception ex){
-            throw ex;
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
 
