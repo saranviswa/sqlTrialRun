@@ -24,11 +24,11 @@ namespace MFPE_ProductMicroservice.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(Product), 200)]
         [ProducesResponseType(404)]
-        public IActionResult Get() 
+        public IActionResult Get()
         {
             try
             {
-                var product = new Product(); //_productRepository.GetAllProduct();
+                var product = _productRepository.GetAllProduct();
 
                 if (product == null)
                 {
