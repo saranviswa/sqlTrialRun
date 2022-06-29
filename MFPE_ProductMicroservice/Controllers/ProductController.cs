@@ -1,6 +1,7 @@
 ﻿using MFPE_ProductMicroservice.Models;
 using MFPE_ProductMicroservice.Repository;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,6 +26,7 @@ namespace MFPE_ProductMicroservice.Controllers
         [ProducesResponseType(404)]
         public IActionResult Get()
         {
+            try{
             var product = _productRepository.GetAllProduct();
             if (product == null)
             {
@@ -33,6 +35,9 @@ namespace MFPE_ProductMicroservice.Controllers
             }
             _log4net.Info("Retuned successfully from getall action method");
             return Ok(product);
+            }
+            catch(Exception ex){
+            throw ex;
         }
 
         // GET api/<ProductController>/5
