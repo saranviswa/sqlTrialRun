@@ -27,7 +27,8 @@ namespace MFPE_ProductMicroservice.Controllers
         public IActionResult Get()
         {
             try{
-            var product = _productRepository.GetAllProduct();
+            var product = null; //_productRepository.GetAllProduct();
+            
             if (product == null)
             {
                 _log4net.Error("Logged inside get method");
