@@ -38,6 +38,7 @@ namespace MFPE_ProductMicroservice.Controllers
             }
             catch(Exception ex){
             throw ex;
+            }
         }
 
         // GET api/<ProductController>/5
