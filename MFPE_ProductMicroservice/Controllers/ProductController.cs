@@ -26,8 +26,13 @@ namespace MFPE_ProductMicroservice.Controllers
         [ProducesResponseType(404)]
         public IActionResult Get()
         {
+
+
             try
             {
+
+
+
                 var product = _productRepository.GetAllProduct();
 
                 if (product == null)
