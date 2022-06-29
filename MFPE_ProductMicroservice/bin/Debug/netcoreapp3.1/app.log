@@ -1,0 +1,4 @@
+2022-06-25 22:33:00,163 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-06-25 22:33:00,187 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-06-25 22:33:00,187 [1] INFO Microsoft.Hosting.Lifetime - Content root path: D:\Cognizant_internship\MFPE_ProductMicroservice\MFPE_ProductMicroservice\MFPE_ProductMicroservice
+2022-06-25 22:33:09,413 [4] INFO MFPE_ProductMicroservice.Controllers.ProductController - Logger initiated
