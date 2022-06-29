@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MFPE_ProductMicroservice\\Controllers",
+    "\\MFPE_ProductMicroservice\\DbContext",
+    "\\MFPE_ProductMicroservice\\Migrations",
+    "\\MFPE_ProductMicroservice\\Models",
+    "\\MFPE_ProductMicroservice\\Repository"
   ],
   "SelectedNode": "\\MFPE_ProductMicroservice.sln",
   "PreviewInSolutionExplorer": false

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cognizant_internship\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj": {}
+    "C:\\Users\\bsara\\Source\\Repos\\saranviswa\\sqlTrialRun\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\Cognizant_internship\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj": {
+    "C:\\Users\\bsara\\Source\\Repos\\saranviswa\\sqlTrialRun\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cognizant_internship\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\bsara\\Source\\Repos\\saranviswa\\sqlTrialRun\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj",
         "projectName": "MFPE_ProductMicroservice",
-        "projectPath": "D:\\Cognizant_internship\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj",
+        "projectPath": "C:\\Users\\bsara\\Source\\Repos\\saranviswa\\sqlTrialRun\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice.csproj",
         "packagesPath": "C:\\Users\\bsara\\.nuget\\packages\\",
-        "outputPath": "D:\\Cognizant_internship\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\MFPE_ProductMicroservice\\obj\\",
+        "outputPath": "C:\\Users\\bsara\\Source\\Repos\\saranviswa\\sqlTrialRun\\MFPE_ProductMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bsara\\AppData\\Roaming\\NuGet\\NuGet.Config",
